@@ -22,7 +22,6 @@
         justify-content: space-around;
         align-items: center;
         padding: 10px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     header nav ul {
@@ -30,9 +29,12 @@
         gap: 25px;
     }
 
-    header ul li {
+    header ul li, header ul li a {
         list-style-type: none;
         display: flex;
+        text-decoration: none;
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     .container {
@@ -130,28 +132,28 @@
                 <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Dark-logo.png" alt="website_logo">
             </div>
             <ul>
-                <li><span>Products</span> <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                <li><span><a href='#'>Products</a></span> <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9"
                             stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                 </li>
-                <li><span>Pricing</span> <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                <li><span><a href='#'>Pricing</a></span> <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9"
                             stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                 </li>
-                <li><span>Resources</span> <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                <li><span><a href='#'>Resources</a></span> <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9"
                             stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                 </li>
-                <li><span>About Us</span> <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                <li><span><a href='#'>About Us</a></span> <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9"
@@ -159,7 +161,7 @@
                     </svg>
                 </li>
                 <li>
-                    <img src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png" alt="tullu_icon">
+                    <img src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png" alt="tullu_icon" style='cursor:pointer;'>
                 </li>
             </ul>
         </nav>
